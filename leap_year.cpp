@@ -26,16 +26,16 @@ int main() {
                     std::cout << "" << year_as_number << " is a leap year"
                     << std::endl;
                     break;
-                } else if (year_as_number % 1000 == 0) {
-                    std::cout << "" << std::endl;
-                    std::cout << "" << year_as_number << " is a leap year"
-                    << std::endl;
-                    break; }
-            } else {
-                std::cout << "" << std::endl;
-                std::cout << "" << year_as_number << " is not a leap year"
-                << std::endl;
-                break;
+                    } else if (year_as_number % 1000 == 0) {
+                        std::cout << "" << std::endl;
+                        std::cout << "" << year_as_number << " is a leap year"
+                        << std::endl;
+                        break; 
+                    } else {
+                        std::cout << "" << std::endl;
+                        std::cout << "" << year_as_number <<
+                        " is not a leap year" << std::endl;
+                        break; }
             }
         } catch (std::invalid_argument) {
             std::cout << "Not a valid year" << std::endl;
